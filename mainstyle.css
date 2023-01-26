@@ -1,0 +1,78 @@
+
+.container{
+  position: absolute;
+  margin-top: 25%;
+  margin-left: 40%;
+  background-color: salmon;
+  width:308px;
+  border-radius: 20px;
+  height:216px;
+  
+}
+
+.container button{
+    width: 100px;
+    height:70px;
+    border-radius: 20px;
+    border: none;
+    background-color: antiquewhite;
+}
+.container button:hover{
+  width: 100px;
+  height:70px;
+  border-radius: 30px;
+  border: none;
+  background-color: rgb(245, 214, 173);
+}
+#heading{
+  position:absolute;
+  margin-top: 20%;
+  margin-left: 43%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:orange;
+  user-select:none;
+}
+#player,#getpara{
+font-size: 50px;
+user-select: none;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#won{
+  font-size: 50px;
+  margin-left: 35%;
+}
+@media (max-width:700px) {
+  .container{
+    margin-left: 10%;
+    
+  }
+  #heading{
+    margin-top: 10%;
+    margin-left: 20%;
+  }
+  #won{
+   
+    display:block;
+  }
+}
+@media (min-width:230px) and (max-width:500px){
+ .container{ margin-left:3%;
+  
+ }
+ .container{
+  width:280px;
+  height:200px;
+ }
+ .container button{
+  width: 90px;
+  height:65px;
+  border-radius:5px;
+  background-color: antiquewhite;
+}
+.container button:hover{
+  width: 90px;
+  height:65px;
+  border-radius:10px;
+  background-color: rgb(245, 214, 173);
+}
+}
